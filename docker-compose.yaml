@@ -1,16 +1,9 @@
 services:
   app:
-    image: node:22-alpine
-    container_name: sepetung-dev
-    working_dir: /app
+    build: .
+    container_name: sepetung-prod
     ports:
       - "5173:3000"
     environment:
-      - NODE_ENV=development
-      - WATCHPACK_POLLING=true
-      - NEXT_WEBPACK_HMR_HOST=localhost
-    volumes:
-      - .:/app
-      - /app/node_modules
-      - /app/.next
-    command: sh -c "npm install && npm run dev"
+      - NODE_ENV=production
+    restart: unless-stopped
