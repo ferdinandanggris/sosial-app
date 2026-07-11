@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "project-management": {
+      "source": "vivy-yi/xiaohongshu-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-工具生态/project-management/SKILL.md",
+      "computedHash": "1ddd44c9bc90369127de793d95edcb8dcd0b5714b121a01f5e3abb4b2a2dca97"
+    },
+    "senior-architect": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/senior-architect/SKILL.md",
+      "computedHash": "9bbe574ab4a0b6c7183e5631386b2bc44b31eaaa5d7843dd5d332631d8c25fe6"
+    }
+  }
+}
