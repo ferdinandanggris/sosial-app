@@ -7,6 +7,8 @@ services:
       - "5173:3000"
     environment:
       - NODE_ENV=development
+      - WATCHPACK_POLLING=true
+      - NEXT_WEBPACK_HMR_HOST=localhost
     volumes:
       - .:/app
       - /app/node_modules
